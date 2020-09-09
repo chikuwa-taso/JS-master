@@ -18,7 +18,9 @@
         <main>
             <div class="container">
                 <section>
-
+                    <p id="choice">
+                        ここに日時を表示します
+                    </p>
                 </section>
             </div><!-- /.container -->
         </main>
@@ -32,11 +34,10 @@
        </script>
        <script>
             'use strict';
-            console.log('よく柿食う客だ');
-        </script>
-        <script>
+            console.log('よく柿食う客だ')
             'use strict'
-            window.alert('アプリ連携が完了しました')
+           console.log(window.confirm('ゲームスタート！are you ready?'));
+            document.getElementById('choice').textContent = new Date();
         </script>
     </body>
 </html>
