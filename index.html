@@ -38,7 +38,11 @@
             'use strict'
             console.log(window.confirm('ゲームスタート！are you ready?'));
             document.getElementById('choice').textContent = new Date();
-            
+            if(window.confirm('ゲームスタート！are you ready?')) {
+                console.log('ゲームを開始します。');
+            } else {
+                console.log('ゲームを終了します。');
+            }
         </script>
     </body>
 </html>
